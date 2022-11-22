@@ -1,0 +1,133 @@
+body{
+    background-color:   #212529 !important;
+}
+
+.header{
+    display: flex;
+    
+}
+
+@media screen and (width< 900px){
+    .imt{
+        width: 185px; 
+        height: 125px; 
+    }
+    
+}
+
+
+@media screen and (width> 900px){
+    .imt{
+        width: 20%; 
+        height: 20%; 
+    }
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.titre{
+    margin-left: 15%;
+}
+
+.github{
+    height: 30px; 
+    width: 30px;
+}
+.grosse_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   	
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+#jules{
+    background-image: url("jules.png");
+    background-size: cover;
+}
+#quentin{
+    background-image: url("quentin.png");
+    background-size: cover;
+}
+#louan{
+    background-image: url("louan.png");
+    background-size: cover;
+}
+#younes{
+    background-image: url("younes.png");
+    background-size: cover;
+}
+.face{
+    opacity: 0.2;
+}
+.createur{
+    padding: 40px;
+    height: 75%;
+}
+
+.boutton{
+    margin: auto;
+    text-align: center;
+}
+
+ul{
+    color: white;
+}
+
+.name{
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+}
+
+.popup {
+    visibility: hidden;
+    width: 160px;
+    background-color: #212529 !important;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    position: absolute;
+    top: 25%; 
+}
+
+.popup::after {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #212529 transparent transparent transparent;
+}
+
+.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
