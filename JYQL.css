@@ -54,19 +54,19 @@ body{
     align-items: center;
 }
 #jules{
-    background-image: url("jules.png");
+    background-image: url("ressources/faces/jules.png");
     background-size: cover;
 }
 #quentin{
-    background-image: url("quentin.png");
+    background-image: url("ressources/faces/quentin.png");
     background-size: cover;
 }
 #louan{
-    background-image: url("louan.png");
+    background-image: url("ressources/faces/louan.png");
     background-size: cover;
 }
 #younes{
-    background-image: url("younes.png");
+    background-image: url("ressources/faces/younes.png");
     background-size: cover;
 }
 .face{
